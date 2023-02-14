@@ -1,0 +1,55 @@
+body {
+    padding-top: 10px;
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 100%;
+}
+
+button {
+  padding: 3px 10px;
+  display: inline-block;
+  text-align: left;
+  border-radius: 20px;
+  background-color: rgb(179,229,255);
+  border: 2px solid rgb(0,170,255);
+  font-family: Garamond;
+  font-size: 90%;
+}
+
+#order {
+  padding: 5px 5px;
+  text-align: left;
+}
+
+#meal_name {
+  font-style: Verdana;
+  text-align: left;
+}
+
+#price {
+  font-style: Verdana;
+}
+
+.subheading {
+  color: orange;
+  padding-top: 10px;
+}
+
+.catchphrase {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.foodimg {
+  width: 90px;
+  height: 60px;
+}
+
+.menu_item {
+  padding: 15px;
+}
