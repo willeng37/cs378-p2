@@ -24,15 +24,15 @@
           <div class="col-4">
             <img class="foodimg" src="https://www.zupans.com/app/uploads/2020/05/iStock-174990644-4096x2731.jpg" alt="Mac and Cheese"/>
           </div>
-          <div class="col-8" id="meal">
+          <div class="col-8">
             <div class="row">
-              <div class="col-9" id="meal_name">mac & cheese</div>
-              <div class="col-3" id="price">$5</div>
+              <div class="col-9 meal_name">mac & cheese</div>
+              <div class="col-3 price">$5</div>
             </div>
-            <div class="row">
-              <div class="col" id="order">
-                <button>order</button>
-              </div>
+            <div class="row justify-content-end">
+              <button class="col-auto subtract">⊖</button>
+              <div class="col-auto amount">0</div>
+              <button class="col-auto add">⊕</button>
             </div>
           </div>
         </div>
@@ -43,15 +43,15 @@
           <div class="col-4">
             <img class="foodimg" src="http://del.h-cdn.co/assets/17/36/1600x800/landscape-1504715566-delish-fettuccine-alfredo.jpg" alt="Pasta (Fettucine Alfredo)"/>
           </div>
-          <div class="col-8" id="meal">
+          <div class="col-8">
             <div class="row">
-              <div class="col-9" id="meal_name">pasta</div>
-              <div class="col-3" id="price">$8</div>
+              <div class="col-9 meal_name">pasta</div>
+              <div class="col-3 price">$8</div>
             </div>
-            <div class="row">
-              <div class="col" id="order">
-                <button>order</button>
-              </div>
+            <div class="row justify-content-end">
+              <button class="col-auto subtract">⊖</button>
+              <div class="col-auto amount">0</div>
+              <button class="col-auto add">⊕</button>
             </div>
           </div>
         </div>
@@ -62,15 +62,15 @@
           <div class="col-4">
             <img class="foodimg" src="https://sarahfunky.com/wp-content/uploads/2020/07/LosTacos-4.jpg" alt="Tacos"/>
           </div>
-          <div class="col-8" id="meal">
+          <div class="col-8">
             <div class="row">
-              <div class="col-9" id="meal_name">tacos</div>
-              <div class="col-3" id="price">$8</div>
+              <div class="col-9 meal_name">tacos</div>
+              <div class="col-3 price">$8</div>
             </div>
-            <div class="row">
-              <div class="col" id="order">
-                <button>order</button>
-              </div>
+            <div class="row justify-content-end">
+              <button class="col-auto subtract">⊖</button>
+              <div class="col-auto amount">0</div>
+              <button class="col-auto add">⊕</button>
             </div>
           </div>
         </div>
@@ -81,20 +81,28 @@
           <div class="col-4">
             <img class="foodimg" src="https://i.ytimg.com/vi/-P5pdc9DBLg/maxresdefault.jpg" alt="Enchiladas"/>
           </div>
-          <div class="col-8" id="meal">
+          <div class="col-8">
             <div class="row">
-              <div class="col-9" id="meal_name">enchilada</div>
-              <div class="col-3" id="price">$10</div>
+              <div class="col-9 meal_name">enchilada</div>
+              <div class="col-3 price">$10</div>
             </div>
-            <div class="row">
-              <div class="col" id="order">
-                <button>order</button>
-              </div>
+            <div class="row justify-content-end">
+              <button class="col-auto subtract">⊖</button>
+              <div class="col-auto amount">0</div>
+              <button class="col-auto add">⊕</button>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="container order_total">
+        <div class="row">
+          <div class="col">Subtotal </div>
+          <div class="col" id="subtotal">$0</div>
+          <button class="col-2" id="order">Order</button>
+          <button class="col-3" id="clear_all">Clear all</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
     </body>
-    </div>
-    
 </html>

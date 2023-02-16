@@ -11,6 +11,16 @@ img {
 }
 
 button {
+  padding: 3px 5px;
+  display: inline-block;
+  text-align: left;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-family: Garamond;
+  font-size: 90%;
+}
+
+#order {
   padding: 3px 10px;
   display: inline-block;
   text-align: left;
@@ -21,17 +31,17 @@ button {
   font-size: 90%;
 }
 
-#order {
-  padding: 5px 5px;
-  text-align: left;
-}
-
-#meal_name {
+.meal_name {
   font-style: Verdana;
   text-align: left;
 }
 
-#price {
+.order {
+  padding: 5px 5px;
+  text-align: left;
+}
+
+.price {
   font-style: Verdana;
 }
 
